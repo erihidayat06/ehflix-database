@@ -14,7 +14,7 @@ class ListServers extends ListRecords
     {
         return [
             Action::make('test')
-                ->label('Tambah Server')
+                ->label('+ Tambah Server')
                 ->icon('heroicon-o-plus')
                 ->url(ServerResource::getUrl('create')),
         ];
